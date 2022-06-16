@@ -2,7 +2,7 @@ import React from 'react'
 
 const header = ({logo, item1, item2, item3, item4, heroButton}) => {
     return (
-        <header class="header__wrapper">
+        <header className="header__wrapper">
         <div className="header__logo">{logo}</div>
         <nav className="header__menu-items__wrapper">
           <ul className="header__menu-items">

@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Hero = ({ heading, text, button1Text, button2Text }) => {
   return (
     <section className="hero__wrapper">
