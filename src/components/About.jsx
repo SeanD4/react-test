@@ -1,4 +1,7 @@
 import React from "react";
+import video from "../images/Video.mp4"
+import img1 from '../images/img1.png'
+import img2 from '../images/img2.png'
 
 const about = ({
   aboutHead,
@@ -22,7 +25,7 @@ const about = ({
       <div className="about__content-wrapper">
         <div className="about__video-wrapper">
           <video poster="/public/images/media-bg.png">
-            <source src="/public/images/Video.mp4" type="video/mp4" />
+            <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
 
@@ -39,7 +42,7 @@ const about = ({
           </div>
 
           <div className="about__video-quote__wrapper">
-            <img src="/public/images/img1.png" alt="Services Icon" />
+            <img src={img1} alt="Services Icon" />
             <div className="about__video-quote-text__wrapper">
               <h3 className="about__video-quote-header">
                 {videoQuoteHead1}
@@ -50,7 +53,7 @@ const about = ({
             </div>
           </div>
           <div className="about__video-quote__wrapper">
-            <img src="/public/images/img2.png" alt="Services Icon" />
+            <img src={img2} alt="Services Icon" />
             <div className="about__video-quote-text__wrapper">
               <h3 className="about__video-quote-header">
                 {videoQuoteHead2}

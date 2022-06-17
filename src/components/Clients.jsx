@@ -1,4 +1,6 @@
 import React from "react";
+import man from "../images/man.png"
+import woman from "../images/woman.png"
 
 const clients = ({
   clientHead,
@@ -21,7 +23,7 @@ const clients = ({
       <div class="client__cards-wrapper">
         <div class="client__cards">
           <img
-            src="/public/images/woman.png"
+            src={woman}
             alt="Woman image"
             class="client-image"
           />
@@ -42,7 +44,7 @@ const clients = ({
         </div>
 
         <div class="client__cards">
-          <img src="/public/images/man.png" alt="Woman image" class="client-image" />
+          <img src={man} alt="Woman image" class="client-image" />
           <div class="client__card-text__wrapper">
             <h3 class="client__name">{client2}</h3>
             <p class="client__title">{client2Title}</p>

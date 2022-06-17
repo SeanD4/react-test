@@ -6,6 +6,8 @@ import Services from "./components/Services";
 import Clients from "./components/Clients";
 import About from "./components/About";
 import Pricing from "./components/Pricing";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import "./reset.css";
 import "./styles.css";
 
@@ -13,7 +15,6 @@ const App = () => {
   return (
     <main className="container">
       {/* <Header logo='BrandName' item1='Home' item2='Product' item3='Pricing' item4='Contact' heroButton='Become a member ->'/> */}
-      <Form />
       <Hero
         heading="Creating a Beautiful & Useful Solutions"
         text="We know how large objects will act, but things on a small scale just do not act that way."
@@ -70,6 +71,44 @@ const App = () => {
         pricingFeature4="1GB Cloud Storage"
         pricingFeature5="Email and community support"
         pricingBadge="New"
+      />
+
+      <Contact
+        contactHead="Get In Touch"
+        contactSub="Problems trying to resolve the conflict between the two major realms of Classical physics: Newtonian mechanics"
+        email1="Georgia.young@example.com"
+        email2="Georgia.young@example.com"
+        email3="Georgia.young@example.com"
+        support="Get Support"
+        buttonText="Submit Request"
+      />
+
+      <Footer
+        head="BrandName"
+        menu1="Company Info"
+        menu2="Legal"
+        menu3="Features"
+        menu4="Resources"
+        menu5="Get in Touch"
+        m1item1="About Us"
+        m1item2="Carrier"
+        m1item3="We are hiring"
+        m1item4="Blog"
+        m2item1="About Us"
+        m2item2="Carrier"
+        m2item3="We are hiring"
+        m2item4="Blog"
+        m3item1="Business Marketing"
+        m3item2="User Analytic"
+        m3item3="Live Chat"
+        m3item4="Unlimited Support"
+        m4item1="IOS & Android"
+        m4item2="Watch a Demo"
+        m4item3="Customers"
+        m4item4="API"
+        buttonText="Subscribe"
+        formSub="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem quaerat, illo"
+        disclaimer="Made With Precision By VTD All Rights Reserved"
       />
     </main>
   );
