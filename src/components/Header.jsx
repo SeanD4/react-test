@@ -1,6 +1,6 @@
 import React from 'react'
 
-const header = ({logo, item1, item2, item3, item4, heroButton}) => {
+const header = ({logo, item1, item2, item3, item4, heroButton, login}) => {
     return (
         <header className="header__wrapper">
         <div className="header__logo">{logo}</div>

@@ -2,6 +2,7 @@ import React from "react";
 import video from "../images/Video.mp4"
 import img1 from '../images/img1.png'
 import img2 from '../images/img2.png'
+import poster from "../images/media-bg.png"
 
 const about = ({
   aboutHead,
@@ -24,7 +25,7 @@ const about = ({
 
       <div className="about__content-wrapper">
         <div className="about__video-wrapper">
-          <video poster="/public/images/media-bg.png">
+          <video poster={poster}>
             <source src={video} type="video/mp4" />
             Your browser does not support the video tag.
           </video>

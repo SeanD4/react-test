@@ -1,6 +1,6 @@
 import React from "react";
 import Form from "./components/Form";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
 import Clients from "./components/Clients";
@@ -14,7 +14,15 @@ import "./styles.css";
 const App = () => {
   return (
     <main className="container">
-      {/* <Header logo='BrandName' item1='Home' item2='Product' item3='Pricing' item4='Contact' heroButton='Become a member ->'/> */}
+      <Header
+        logo="BrandName"
+        login="Login"
+        item1="Home"
+        item2="Product"
+        item3="Pricing"
+        item4="Contact"
+        heroButton="Become a member ->"
+      />
       <Hero
         heading="Creating a Beautiful & Useful Solutions"
         text="We know how large objects will act, but things on a small scale just do not act that way."
