@@ -1,8 +1,8 @@
 import React from "react";
-import video from "../images/Video.mp4"
-import img1 from '../images/img1.png'
-import img2 from '../images/img2.png'
-import poster from "../images/media-bg.png"
+import video from "../images/Video.mp4";
+import img1 from "../images/img1.png";
+import img2 from "../images/img2.png";
+import poster from "../images/media-bg.png";
 
 const about = ({
   aboutHead,
@@ -18,9 +18,7 @@ const about = ({
     <section className="about__wrapper">
       <div className="about__heading-wrapper">
         <h1 className="about__heading">{aboutHead}</h1>
-        <p className="about__text">
-          {aboutSub}
-        </p>
+        <p className="about__text">{aboutSub}</p>
       </div>
 
       <div className="about__content-wrapper">
@@ -37,31 +35,21 @@ const about = ({
         <div className="about__video-text__wrapper">
           <div className="about__video-heading-wrapper">
             <h2 className="about__video-heading">{videoHead}</h2>
-            <p className="about__video-heading-text">
-              {videoSub}
-            </p>
+            <p className="about__video-heading-text">{videoSub}</p>
           </div>
 
           <div className="about__video-quote__wrapper">
             <img src={img1} alt="Services Icon" />
             <div className="about__video-quote-text__wrapper">
-              <h3 className="about__video-quote-header">
-                {videoQuoteHead1}
-              </h3>
-              <p className="about__video-quote-text">
-                {videoQuoteSub1}
-              </p>
+              <h3 className="about__video-quote-header">{videoQuoteHead1}</h3>
+              <p className="about__video-quote-text">{videoQuoteSub1}</p>
             </div>
           </div>
           <div className="about__video-quote__wrapper">
             <img src={img2} alt="Services Icon" />
             <div className="about__video-quote-text__wrapper">
-              <h3 className="about__video-quote-header">
-                {videoQuoteHead2}
-              </h3>
-              <p className="about__video-quote-text">
-                {videoQuoteSub2}
-              </p>
+              <h3 className="about__video-quote-header">{videoQuoteHead2}</h3>
+              <p className="about__video-quote-text">{videoQuoteSub2}</p>
             </div>
           </div>
         </div>
@@ -69,4 +57,4 @@ const about = ({
     </section>
   );
 };
-export default about
+export default about;
