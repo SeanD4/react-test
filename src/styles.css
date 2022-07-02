@@ -74,6 +74,18 @@ header .header__button-wrapper button.header__button-member {
 header.mobile-header {
   display: none;
 }
+
+@media only screen and (min-width: 769px) and (max-width: 930px) {
+  header.header__wrapper {
+    padding: 0 12px;
+  }
+  header .header__menu-items__wrapper {
+    margin-left: 45px;
+    margin-right: 20px;
+  }
+  
+  
+} 
 @media only screen and (max-width: 768px) {
   header {
     background-color: rgba(37, 43, 66, 0.9);
